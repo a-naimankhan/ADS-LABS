@@ -1,4 +1,5 @@
 def merge_sort(words):
+    #basic case 
     if len(words) <= 1:
         return words 
     
@@ -12,7 +13,7 @@ def merge(left ,right):
     res = []
     i = j = 0
 
-    while i < len(left) and j < len(right):
+    while i < len(left) and j < len(right): 
         if len(left[i]) < len(right[j]):
             res.append(left[i])
             i += 1

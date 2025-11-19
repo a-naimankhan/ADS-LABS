@@ -14,6 +14,9 @@ def min_repetion(A , B):
         return -1 
 
 
+#abcdabcdabcd
+#cdabcdab
+
 s = input() 
 subS = input() 
 print(min_repetion(s , subS))
