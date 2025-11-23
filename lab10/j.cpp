@@ -44,7 +44,6 @@ int main() {
 
             int root = *min_element(comp.begin(), comp.end());
 
-            // BFS to make the tree
             unordered_map<int,int> parent;
             unordered_map<int,int> children;
             for (int v : comp) children[v] = 0;
@@ -67,7 +66,6 @@ int main() {
                 }
             }
 
-            // Count BigFam
             for (int v : comp) {
                 if (v == root) answer++;
                 else {

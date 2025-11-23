@@ -27,7 +27,6 @@ int main() {
         while (ss >> x) arr.push_back(x - 1); 
         bool ok = true;
 
-        // проверяем каждую пару
         for (int i = 0; i < arr.size(); i++) {
             for (int j = i + 1; j < arr.size(); j++) {
                 if (compat[arr[i]][arr[j]] == 0) {
