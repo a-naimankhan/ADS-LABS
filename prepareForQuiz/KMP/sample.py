@@ -24,4 +24,8 @@ def kmp_search(s ,p):
         if j == len(p):
             res.append(i-j+1)
             j = lps[j-1]
-    return res
+    return res  
+
+#build lps O(m) 
+#Search lps O(n)
+

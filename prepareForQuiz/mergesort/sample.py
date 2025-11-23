@@ -22,4 +22,8 @@ def merge(a , b):
     
     result.extend(a[i:])
     result.extend(b[j:]) 
-    return result
+    return result 
+
+#O(nlogn) everytime
+#O(n) memory 
+

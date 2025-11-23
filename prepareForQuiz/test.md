@@ -81,5 +81,6 @@ ans:
     5) b 
     6) I guess it is O(n + m) tbh I can't even understand why 
     7) b 
-    8) b saving O(v^2) getting O(1) inserting could also be O(v^2) in worst case  
-    9)
+    8) b saving O(v^2) getting O(1) inserting could also be O(v^2) in worst case   
+    9) b 
+    10) O(n)

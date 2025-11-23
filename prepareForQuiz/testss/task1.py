@@ -56,4 +56,8 @@ adjency = {
 # a)O(V+E)
 # b)O(V^2)
 # c)O(n+m)
-# d)O(nm)  
+# d)O(nm) 
+#
+# task 10 
+# adjency matrix    
+

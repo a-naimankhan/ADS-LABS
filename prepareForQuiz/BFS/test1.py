@@ -48,6 +48,6 @@ def bfs(graph , start):
                 print(nei , end="->") 
                 print(f"degree of {node} is {len(graph[node])}")            
 
-    print(counter + 1)      
+    print(counter + 1 )      
     return order #вот поидее то как пройдется бфс 
             
