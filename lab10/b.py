@@ -1,7 +1,7 @@
 from collections import deque 
 
 def find_shortest_path(matrix , s , e):
-    start , end = s-1 , e-1 
+    start , end = s-1 , e-1  
     n = len(matrix)
     #pseudocode 
     q = deque() 
